@@ -1,0 +1,123 @@
+# -------------------------
+# OS-specific files
+# -------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+.eggs/
+dist/
+build/
+wheels/
+*.manifest
+*.spec
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+.ipynb_checkpoints/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Model artifacts
+*.h5
+*.hdf5
+*.ckpt
+*.pb
+*.onnx
+*.tflite
+*.pkl
+*.joblib
+*.pt
+*.pth
+
+# TensorBoard
+logs/
+events.out.tfevents.*
+
+# Datasets / large files
+data/
+datasets/
+*.csv
+*.tsv
+*.json
+*.parquet
+*.npz
+*.npy
+
+# -------------------------
+# Node.js / JavaScript
+# -------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log
+
+# Build artifacts
+dist/
+build/
+coverage/
+.next/
+out/
+.nuxt/
+.svelte-kit/
+
+# -------------------------
+# Django / Flask / FastAPI
+# -------------------------
+*.log
+local_settings.py
+db.sqlite3
+instance/
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+media/
+staticfiles/
+
+# -------------------------
+# VSCode / PyCharm
+# -------------------------
+.vscode/
+.history/
+.idea/
+*.iml
+
+# -------------------------
+# Env & Secrets
+# -------------------------
+.env
+.env.*
+*.secret
+*.key
+*.pem
+config.json
+secrets.json
+
+# -------------------------
+# Misc
+# -------------------------
+*.bak
+*.tmp
+*.lock
+
