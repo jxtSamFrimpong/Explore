@@ -120,4 +120,6 @@ secrets.json
 *.bak
 *.tmp
 *.lock
+aclImdb_v1
+aclImdb_v1_archive
 
