@@ -25,14 +25,14 @@ x_train, x_test, y_train, y_test = sk.model_selection.train_test_split(x, y, tes
 
 best_model_so_far = 0
 
-# for _ in range(20):
-#     linear = sk.linear_model.LinearRegression()
-#     linear.fit(x_train, y_train)
-#     acc = linear.score(x_test, y_test)
-#     print(acc)
-#     if acc > best_model_so_far:
-#         with open("saved_model.pkl", "wb") as f:
-#             pickle.dump(linear, f)
+for _ in range(20):
+    linear = sk.linear_model.LinearRegression()
+    linear.fit(x_train, y_train)
+    acc = linear.score(x_test, y_test)
+    print(acc)
+    if acc > best_model_so_far:
+        with open("saved_model.pkl", "wb") as f:
+            pickle.dump(linear, f)
 
 saved_model = pickle.load(open("saved_model.pkl", "rb"))
 

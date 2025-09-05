@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 
 mnist = tf.keras.datasets.fashion_mnist
 
+
 (x_train, y_train), (x_test, y_test) = mnist.load_data()
 print(x_test.shape, y_test.shape)
 print(x_train.shape, y_train.shape)
